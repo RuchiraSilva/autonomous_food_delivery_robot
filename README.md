@@ -108,6 +108,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ---
 
 Made with ❤️ by [Ruchira Silva](https://www.linkedin.com/in/ruchirasilva)  
-© 2023
+© 2025
 
 ---
