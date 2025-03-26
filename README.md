@@ -57,7 +57,7 @@ The software integrates both hardware control and web-based interfaces:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/autonomous-food-delivery-robot.git
+   git clone https://github.com/RuchiraSilva/autonomous-food-delivery-robot.git
    ```
 
 2. Open the `.ino` file in the Arduino IDE.
