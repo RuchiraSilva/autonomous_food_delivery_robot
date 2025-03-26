@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(135deg, #7b10a7, #ff758c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 117, 140, 0.3);
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+#adminPanelLabel{
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(135deg, #1619df, #5ad6f5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 117, 140, 0.3);
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #91072e, #f81254);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(37, 34, 35, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    box-shadow: 0 6px 14px rgba(41, 38, 39, 0.5);
+    transform: translateY(-3px);
+  }
+  
+button:active {
+    background: linear-gradient(135deg, #ff5f7e, #ff6f92);
+    box-shadow: 0 2px 6px rgba(255, 117, 140, 0.3);
+    transform: translateY(1px);
+  }
+
+#returnHomeButton{
+    float: right;
+    background: linear-gradient(135deg, #0b9107, #53f84f);
+    position: relative;
+    top: -50px;
+}
+
+#toggleSort{
+    float: right;
+    background: linear-gradient(135deg, #038c81, #4df9eb); 
+    margin-bottom: 3px;
+    margin-right: -180px;
+    font-size: 10px;
+}
+
+h2{
+    margin-bottom: -10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.new-order {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#ordersTable tbody {
+    display: block;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#ordersTable thead, #ordersTable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ordersTable th, #ordersTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}

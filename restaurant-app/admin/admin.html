@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="restaurantName">DeliBot Restaurant</h1>
+        <h2 id="adminPanelLabel">Admin Panel</h2>
+
+        <button id="returnHomeButton" style="margin-top: 40px;">🤖Return Robot Home</button>
+
+        <h2>Orders</h2>
+        <div><button id="toggleSort">↕️Sort Orders (Newest First)</button></div>
+        <table id="ordersTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Date & Time</th>
+                    <th>Table Number</th>
+                    <th>Items</th>
+                    <th>Total Price</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+
+        <h2>Add New Food Item</h2>
+        <br>
+        <form id="addFoodForm">
+            <label for="foodName">Food Name:</label>
+            <input type="text" id="foodName" name="foodName" required>
+            <label for="foodPrice">Price:</label>
+            <input type="number" id="foodPrice" name="foodPrice" step="0.01" required>
+            <button type="submit">Add Food Item</button>
+        </form>
+
+
+        <h2>Food Menu</h2>
+        <ul id="menuList">
+
+        </ul>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>
