@@ -2,7 +2,6 @@
 
 This project demonstrates an **Autonomous Food Delivery Robot** designed to streamline restaurant operations by automating food delivery. The robot navigates autonomously, avoids obstacles, and delivers food to designated tables while being controlled and monitored through a web-based interface.
 
-[![Watch the Demo Video](https://img.youtube.com/vi/yourvideoid/0.jpg)](https://www.youtube.com/watch?v=yourvideoid)
 
 ---
 
@@ -81,7 +80,7 @@ The software integrates both hardware control and web-based interfaces:
 
 Check out the demo video to see the robot in action:
 
-[Watch the Demo Video on YouTube](https://www.youtube.com/watch?v=yourvideoid)
+[Watch the Demo Video on YouTube](https://youtu.be/X6bn6PqycP4?si=IvlOGM1kDrbI3rAY)
 
 ---
 
@@ -89,7 +88,9 @@ Check out the demo video to see the robot in action:
 
 For inquiries, collaborations, or feedback, feel free to reach out to me via LinkedIn:
 
-[Connect with me on LinkedIn](https://www.linkedin.com/in/yourlinkedinprofile)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/ruchirasilva)
+
+[Contact Me via Email](mailto:ruchirasilva45@gmail.com)
 
 ---
 
@@ -106,12 +107,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ---
 
-Made with ❤️ by [Ruchira Silva](https://www.linkedin.com/in/yourlinkedinprofile)  
+Made with ❤️ by [Ruchira Silva](https://www.linkedin.com/in/ruchirasilva)  
 © 2023
 
 ---
-
-### Notes:
-- Replace `yourvideoid` with the actual ID of your YouTube video.
-- Replace `yourlinkedinprofile` with your actual LinkedIn profile URL.
-- Optionally, add a `LICENSE` file if you want to include the full text of the MIT License.
