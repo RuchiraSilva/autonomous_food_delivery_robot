@@ -423,7 +423,6 @@ void handleMove() {
   server.send(200, "text/plain", "Moving to Table " + tableNum);
 }
 
-// Function to provide status in JSON format
 void handleStatus() {
   String status = "{";
   status += "\"battery\":" + String(chargeP) + ",";
