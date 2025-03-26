@@ -1,3 +1,25 @@
+/*
+  @file       admin.css
+  @author     Ruchira Silva
+  @version    1.0
+  @date       March 2025
+  @brief      Stylesheet for Admin Panel Interface.
+
+  @details    This file contains the styles for the admin panel interface, ensuring a clean and user-friendly
+              design for managing orders and food items.
+
+  @copyright  Copyright (c) 2025 Ruchira Silva. All rights reserved.
+
+  Project Links:
+  - GitHub Repository: https://github.com/RuchiraSilva/autonomous_food_delivery_robot
+  - YouTube Demo: https://youtu.be/X6bn6PqycP4?si=IvlOGM1kDrbI3rAY
+
+  Contact me:
+  - LinkedIn: https://www.linkedin.com/in/ruchirasilva
+  - Email: ruchirasilva45@gmail.com
+
+*/
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;

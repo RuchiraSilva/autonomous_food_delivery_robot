@@ -1,3 +1,26 @@
+/**
+ * @file       script.js
+ * @author     Ruchira Silva
+ * @version    1.0
+ * @date       March 2025
+ * @brief      Node.js backend for Autonomous Food Delivery Robot.
+ *
+ * @details    This file contains the backend logic for managing orders, food items,
+ *             and communication with the ESP32 microcontroller. It integrates with
+ *             an SQLite database and provides RESTful APIs for the web interface.
+ *
+ * @copyright  Copyright (c) 2025 Ruchira Silva. All rights reserved.
+ *
+ * Project Links:
+ * - GitHub Repository: https://github.com/RuchiraSilva/autonomous_food_delivery_robot
+ * - YouTube Demo: https://youtu.be/X6bn6PqycP4?si=IvlOGM1kDrbI3rAY
+ *
+ * Contact me:
+ * - Email: ruchirasilva45@gmail.com
+ * - LinkedIn: https://www.linkedin.com/in/ruchirasilva
+ * 
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
     const socket = io();
     let menu = [];

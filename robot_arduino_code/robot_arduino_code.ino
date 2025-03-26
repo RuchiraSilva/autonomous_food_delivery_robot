@@ -1,3 +1,27 @@
+/**
+ * @file       robot_arduino_code.ino
+ * @author     Ruchira Silva
+ * @version    1.0
+ * @date       March 2025
+ * @brief      Autonomous Food Delivery Robot - A project to automate food delivery in restaurants.
+ * 
+ * @details    This project demonstrates an autonomous robot capable of navigating to tables, avoiding obstacles,
+ *             and delivering food while being controlled through a web-based interface. It integrates hardware
+ *             components like ESP32, DC motors, ultrasonic sensors, and MPU6050 IMU with software for navigation
+ *             and obstacle avoidance.
+ * 
+ * @copyright  Copyright (c) 2025 Ruchira Silva. All rights reserved.
+ * 
+ * Project Links:
+ * - GitHub Repository: https://github.com/RuchiraSilva/autonomous_food_delivery_robot
+ * - YouTube Demo: https://youtu.be/X6bn6PqycP4?si=IvlOGM1kDrbI3rAY 
+ * 
+ * Contact me:
+ * - Email: ruchirasilva45@gmail.com
+ * - LinkedIn: https://www.linkedin.com/in/ruchirasilva
+ * 
+ */
+
 #include <Wire.h>
 #include <MPU6050_light.h>
 #include <WiFi.h>
@@ -69,7 +93,7 @@ void rotateToAngle(float targetAngle) {
   Serial.print("Target angle: ");Serial.println(targetAngle);
   //delay(5000);
   float error = targetAngle - currentAngle;
-  while (abs(error) > 2) { // 2-degree tolerance
+  while (abs(error) > 2) {
     if (error > 0) {
       rotateLeft();
       //Serial.println("Rotating to the target angle...");
